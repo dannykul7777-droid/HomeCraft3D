@@ -1,0 +1,31 @@
+:root {
+  --graphite: #242321;
+  --panel: #2c2a26;
+  --panel-hover: #37342f;
+  --border: #47433c;
+  --paper: #ece7db;
+  --paper-dim: #98917f;
+  --amber: #d99a4e;
+  --green: #82a873;
+  --red: #b25a4a;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  background: var(--graphite);
+  color: var(--paper);
+  font-family: var(--font-sans);
+}
+
+body {
+  overflow: hidden;
+}
